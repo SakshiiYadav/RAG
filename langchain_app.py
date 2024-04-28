@@ -3,7 +3,7 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGener
 from IPython.display import Markdown as md
 
 # Setup API Key
-f = open('C:/Users/saidu/OneDrive/Desktop/RAG/key.txt')
+f = open('C:/Users/DELL-PC/Desktop/RAG/key.txt')
 GOOGLE_API_KEY = f.read()
 
 chat_model = ChatGoogleGenerativeAI(google_api_key=GOOGLE_API_KEY, model="gemini-1.5-pro-latest")
